@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Coin Name</title>
+  <style>
+    /* Reset & font */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #141e30, #243b55);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    /* Container */
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    /* Header */
+    header {
+      margin-bottom: 2rem;
+    }
+    header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      border: 3px solid #00c9ff;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #cfd9df;
+    }
+
+    /* Contract box */
+    .contract {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 1rem;
+      border-radius: 12px;
+      margin: 2rem 0;
+      word-break: break-all;
+    }
+    .contract h2 {
+      margin-bottom: 0.5rem;
+    }
+    .contract code {
+      display: block;
+      background: #0f2027;
+      padding: 0.5rem;
+      border-radius: 6px;
+      font-family: monospace;
+    }
+
+    /* Links */
+    .links a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.75rem 1.25rem;
+      border-radius: 25px;
+      text-decoration: none;
+      background: #00c9ff;
+      color: #000;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    .links a:hover {
+      background: #92fe9d;
+      transform: scale(1.05);
+    }
+
+    /* Disclaimer */
+    footer {
+      margin-top: 3rem;
+      font-size: 0.85rem;
+      color: #a0a0a0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="logo.png" alt="Coin Logo">
+      <h1>Your Coin Name</h1>
+      <p>The next-generation memecoin on Solana 🚀</p>
+    </header>
+
+    <section class="contract">
+      <h2>Contract Address</h2>
+      <code>PasteYourContractAddressHere1234567890abcdef</code>
+      <p><a href="https://solscan.io/token/YourContractAddress" target="_blank" style="color:#00c9ff;">View on Solscan</a></p>
+    </section>
+
+    <section class="links">
+      <a href="https://pump.fun/" target="_blank">Buy on Pump.fun</a>
+      <a href="https://t.me/YourTelegram" target="_blank">Telegram</a>
+      <a href="https://twitter.com/YourTwitter" target="_blank">Twitter/X</a>
+    </section>
+
+    <footer>
+      <p>⚠️ Disclaimer: This coin is a community project and carries risk. 
+         Do your own research before investing. No financial advice.</p>
+    </footer>
+  </div>
+</body>
+</html>
